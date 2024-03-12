@@ -4,14 +4,12 @@ This C program converts school schedules from web files (e.g., HTML) into the .i
 
 ## Features *still a draft, subject to change*
 
-- **User Authentication**: Users must sign in to access the tool via a web page or Android application.
-- **Event Management**: Users can input events or tasks, including details such as name, start time, duration, location, and priority.
-- **Schedule Optimization**: The application uses Google Maps/Transit information to optimize the schedule, considering travel times between event locations.
-- **Schedule Modification**: Users can modify the optimized schedule if required.
-- **Persistent Storage**: The schedule is saved to a central server and can be accessed later or printed out.
-- **Dynamic Recalculation**: If the user cannot meet the schedule, the application recalculates to accommodate changes.
-- **Priority Management**: In case of a full day, lower priority tasks are dropped in favor of higher priority ones.
-- **Performance Tracking**: The application tracks the percentage of missed events to encourage task completion.
+Schedule Import: Users can import their school schedule from a web file (e.g., HTML) saved locally.
+Format Conversion: The application converts the imported schedule into the .ics format, compatible with popular calendar applications like iCalendar and Google Calendar.
+User Interaction: The program provides a user-friendly interface with clear instructions for importing the schedule and exporting the converted .ics file.
+Customization: Users have the option to customize certain parameters, such as the file path for the imported schedule and the output directory for the .ics file.
+Error Handling: The application includes input validation and error handling to ensure the integrity of the converted schedule.
+Flexibility: The program allows users to control the flow of the conversion process, offering flexibility in how the schedule is processed and converted.
 
 ## Getting Started
 
