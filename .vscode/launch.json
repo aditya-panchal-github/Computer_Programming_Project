@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/adi/Documents/GitHub/Computer_Programming_Project/src/core_features",
+      "program": "/Users/adi/Documents/GitHub/Computer_Programming_Project/src/core_features/build/Debug/outDebug"
+    },
+    {
+      "name": "Debug GTK+ App",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/build/app",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "/Users/adi/Documents/GitHub/Computer_Programming_Project/src/resources/",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "Build GTK+ App",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

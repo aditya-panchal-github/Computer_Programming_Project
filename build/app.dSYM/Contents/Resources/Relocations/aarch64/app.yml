@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/adi/Documents/GitHub/Computer_Programming_Project/build/app'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _create_test_ics_file, symObjAddr: 0x0, symBinAddr: 0x100002468, symSize: 0x1B4 }
+  - { offsetInCU: 0x7D, offset: 0x7D, size: 0x8, addend: 0x0, symName: _file_chooser, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x1A2, offset: 0x1A2, size: 0x8, addend: 0x0, symName: _progress_bar, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x1B7, offset: 0x1B7, size: 0x8, addend: 0x0, symName: _status_label, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x2B6, offset: 0x2B6, size: 0x8, addend: 0x0, symName: _create_test_ics_file, symObjAddr: 0x0, symBinAddr: 0x100002468, symSize: 0x1B4 }
+  - { offsetInCU: 0x2F6, offset: 0x2F6, size: 0x8, addend: 0x0, symName: _parseCSVEntry, symObjAddr: 0x1B4, symBinAddr: 0x10000261C, symSize: 0x80 }
+  - { offsetInCU: 0x32D, offset: 0x32D, size: 0x8, addend: 0x0, symName: _import_functionality, symObjAddr: 0x234, symBinAddr: 0x10000269C, symSize: 0x1B8 }
+  - { offsetInCU: 0x3B6, offset: 0x3B6, size: 0x8, addend: 0x0, symName: _export_functionality, symObjAddr: 0x3EC, symBinAddr: 0x100002854, symSize: 0x38C }
+  - { offsetInCU: 0x420, offset: 0x420, size: 0x8, addend: 0x0, symName: _view_functionality, symObjAddr: 0x778, symBinAddr: 0x100002BE0, symSize: 0x140 }
+  - { offsetInCU: 0x46E, offset: 0x46E, size: 0x8, addend: 0x0, symName: _perform_conversion, symObjAddr: 0x8B8, symBinAddr: 0x100002D20, symSize: 0x28 }
+  - { offsetInCU: 0x496, offset: 0x496, size: 0x8, addend: 0x0, symName: _on_button_import_clicked, symObjAddr: 0x8E0, symBinAddr: 0x100002D48, symSize: 0xBC }
+  - { offsetInCU: 0x4F2, offset: 0x4F2, size: 0x8, addend: 0x0, symName: _on_button_export_clicked, symObjAddr: 0x99C, symBinAddr: 0x100002E04, symSize: 0xBC }
+  - { offsetInCU: 0x54E, offset: 0x54E, size: 0x8, addend: 0x0, symName: _on_drag_data_received, symObjAddr: 0xA58, symBinAddr: 0x100002EC0, symSize: 0x44 }
+  - { offsetInCU: 0x5E2, offset: 0x5E2, size: 0x8, addend: 0x0, symName: _create_custom_button, symObjAddr: 0xA9C, symBinAddr: 0x100002F04, symSize: 0xB4 }
+  - { offsetInCU: 0x642, offset: 0x642, size: 0x8, addend: 0x0, symName: _activate, symObjAddr: 0xB50, symBinAddr: 0x100002FB8, symSize: 0x5CC }
+  - { offsetInCU: 0x760, offset: 0x760, size: 0x8, addend: 0x0, symName: _on_button_view_clicked, symObjAddr: 0x111C, symBinAddr: 0x100003584, symSize: 0x5C }
+  - { offsetInCU: 0x792, offset: 0x792, size: 0x8, addend: 0x0, symName: _on_convert_button_clicked, symObjAddr: 0x1178, symBinAddr: 0x1000035E0, symSize: 0xF0 }
+  - { offsetInCU: 0x26, offset: 0xDE9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036D0, symSize: 0xC0 }
+  - { offsetInCU: 0x14C, offset: 0xF0F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036D0, symSize: 0xC0 }
+...
